@@ -1,0 +1,2 @@
+https://padae-partner.vercel.app/api/
+https://vidhyarti.vercel.app/api/
