@@ -128,7 +128,7 @@ for _, row in filtered_rows.iterrows():
 
             # Wait for 5 minutes (300 seconds) before sending the next request
             print("Waiting for 5 minutes before the next request...")
-            time.sleep(300)
+            time.sleep(180)
 
         except Exception as e:
             print(f"Error sending request to {endpoint}: {str(e)}")
