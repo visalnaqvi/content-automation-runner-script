@@ -127,7 +127,7 @@ for _, row in filtered_rows.iterrows():
             print(f"************Success in adding blog to {endpoint}*****************")
 
             # Wait for 5 minutes (300 seconds) before sending the next request
-            print("Waiting for 5 minutes before the next request...")
+            print("Waiting for 3 minutes before the next request...")
             time.sleep(180)
 
         except Exception as e:
