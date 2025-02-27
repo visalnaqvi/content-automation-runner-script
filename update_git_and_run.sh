@@ -17,13 +17,14 @@ check_and_start() {
     cd "$project_path" || { echo "❌ Failed to navigate to $project_path"; return; }
 
     # Pull latest changes from Git
-    git pull origin main
+    git pull
+    echo "✅ $project_name fetched from git"
 
     # Check if the process is running
     if pgrep -f $project_name > /dev/null; then
-        echo "✅ $project_name is already running on port $port."
+        echo "✅ $project_name is already running."
     else
-        echo "🚀 Starting $project_name on port $port..."
+        echo "🚀 Starting $project_name ..."
         nohup npm run dev > logs.log 2>&1 &
         echo "✅ Started $project_name successfully."
     fi
