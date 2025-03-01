@@ -8,7 +8,7 @@ file_path = "/home/visalnaqvi/content-automation-runner-script/blogs.xlsx"  # En
 df = pd.read_excel(file_path)
 
 # Read domains from file
-with open("domains.txt", "r") as file:
+with open("/home/visalnaqvi/content-automation-runner-script/domains.txt", "r") as file:
     domains = [line.strip() for line in file.readlines() if line.strip()]
 
 # Define valid months
