@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # Load the Excel file
-file_path = "./blogs.xlsx"  # Ensure this file exists
+file_path = "/home/visalnaqvi/content-automation-runner-script/blogs.xlsx"  # Ensure this file exists
 df = pd.read_excel(file_path)
 
 # Read domains from file

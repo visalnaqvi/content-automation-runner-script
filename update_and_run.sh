@@ -82,6 +82,6 @@ fi
 
 # Step 4: Run Python Script
 echo "🚀 Running runScript.py..."
-nohup python "$SCRIPT_PATH" > "$BASE_PATH/logs.log" 2>&1 &
+nohup python "$SCRIPT_PATH" > "$BASE_PATH/content-automation-runner-script/logs.log" 2>&1 &
 
 echo "✅ Script execution started."
