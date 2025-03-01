@@ -1,0 +1,4 @@
+✅ Payload validated successfully: {'topic': 'CUET UG 2025 Preparation: Subject-Wise Study Plan', 'slug': 'CUET-UG-2025-Preparation-Strategy', 'category': 'cuet-pg', 'month': 'March', 'year': 2025, 'keyword': 'cuet ug', 'wordLength': 500, 'audience': 'students who are preparing for cuet ug exam', 'numberOfSubheading': 5, 'contentPara': 1, 'contentWords': 50, 'note': 'try to be very minimal and to the point ', 'description': 'Prepare for CUET UG 2025 with a subject-wise study plan, expert tips, and effective strategies. Learn time management techniques, best books, and practice methods to ace the exam with confidence!', 'image': 'some-image'}
+Request sent to http://localhost:3002/api/generate-blog, Status: 400, Response: {"success":false,"error":"Invalid category"}
+************Success in adding blog to http://localhost:3002/api/generate-blog*****************
+Waiting for 3 minutes before the next request...

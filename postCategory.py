@@ -2,10 +2,10 @@ import requests
 
 # Define category payload
 category_payload = {
-        "name": "CUET UG",
+        "name": "CUET PG",
         "image": "https://www.cuet.edu.in/wp-content/uploads/2023/03/CUET-Logo.png",
         "description": "The Common University Entrance Test (CUET UG) is a national-level entrance exam conducted by the National Testing Agency (NTA) for admission to undergraduate programs in central, state, deemed, and private universities across India. It provides a single-window opportunity for students to apply to multiple universities based on their CUET scores.",
-        "key": "cuet-ug",
+        "key": "cuet-pg",
         "blogs": []
     }
 

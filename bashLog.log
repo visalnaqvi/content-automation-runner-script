@@ -1,0 +1,45 @@
+🔄 Updating and checking GyanDost...
+Already up to date.
+✅ GyanDost fetched from git
+✅ GyanDost is already running.
+🔄 Updating and checking Padae-Partner...
+From github.com:visalnaqvi/Padae-Partner
+   1acaa13..2d48dbd  padaepartner -> origin/padaepartner
+Updating 1acaa13..2d48dbd
+Fast-forward
+ data/category/data.json | 7 +++++++
+ 1 file changed, 7 insertions(+)
+✅ Padae-Partner fetched from git
+✅ Padae-Partner is already running.
+🔄 Updating and checking PadhaiPath...
+From github.com:visalnaqvi/PadhaiPath
+   ab5abef..1666400  PadhaiPath -> origin/PadhaiPath
+Updating ab5abef..1666400
+Fast-forward
+ data/category/data.json | 7 +++++++
+ 1 file changed, 7 insertions(+)
+✅ PadhaiPath fetched from git
+✅ PadhaiPath is already running.
+🔄 Updating and checking SmartShiksha...
+Already up to date.
+✅ SmartShiksha fetched from git
+✅ SmartShiksha is already running.
+🔄 Updating and checking Vidhyarti...
+From github.com:visalnaqvi/Vidhyarti
+   f2d5dc6..0fa0949  vidhyarti  -> origin/vidhyarti
+Updating f2d5dc6..0fa0949
+Fast-forward
+ data/category/data.json | 7 +++++++
+ 1 file changed, 7 insertions(+)
+✅ Vidhyarti fetched from git
+✅ Vidhyarti is already running.
+✅ All projects checked and updated.
+🔎 Checking if all projects are running...
+✅ GyanDost is running.
+✅ Padae-Partner is running.
+✅ PadhaiPath is running.
+✅ SmartShiksha is running.
+✅ Vidhyarti is running.
+✅ Virtual environment is already activated.
+🚀 Running runScript.py...
+✅ Script execution started.
